@@ -1,0 +1,25 @@
+.custom-modal-height .modal-dialog {
+    height: 80vh;
+    /* Set the height of the modal */
+}
+
+.custom-modal-height .modal-content {
+    height: 100%;
+    /* Make sure the content fills the height */
+    overflow-y: auto;
+    /* Add scroll if content exceeds modal height */
+}
+
+.inline-block-div {
+    display: inline-block;
+    width: auto;
+}
+
+.like-dislike-box{
+    padding: 1px;
+}
+
+.like-dislike-box span{
+    font-size: larger;
+    padding: 6px;
+}

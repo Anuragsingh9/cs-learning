@@ -1,0 +1,38 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.video-box {
+  width: 100%;
+  max-width: 320px;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+video {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.bottom-row {
+  cursor: pointer;
+  text-align: left;
+}
+
+.bottom-row span {
+  font-weight: bold;
+  width: 40ch;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
